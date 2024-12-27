@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hàm trong python</title>
+  </head>
+  <body>
+    <h1><i>Hàm trong python</i></h1>
+    <hr>
+
+    <ol type="I">
+      <li><strong>Tạo 1 hàm</strong>
+        <p>
+          <pre>
+  vd: 
+  <b>
+    def my():
+      print("Hello World")
+    my() // gọi hàm
+  </b>
+          </pre>
+        </p></li>
+
+        <li><strong>Đối số tuỳ ý</strong>
+        <p>
+          <pre>
+  Nếu bạn không biết Nếu bạn không biết có bao nhiêu đối số sẽ được truyền vào hàm của mình, hãy thêm a *trước tên tham số trong định nghĩa hàm.
+  Theo cách này, hàm sẽ nhận được một bộ đối số và có thể truy cập các mục tương ứng:
+  vd:
+  <b>
+    def my_function(*kids):
+      print("The youngest child is " + kids[2])
+    my_function("Emil", "Tobias", "Linus") 
+  </b>
+        </pre>
+        </p></li>
+
+        <li><strong>Truyền ào 1 danh sách như 1 đối số</strong>
+  <pre>
+    vd: 
+    def my(food):
+            for  x in food:
+              print(x)
+    // Tạo 1 List trái cây 
+    fruit = ["Apple", "banana", "orange"]
+    
+    // gọi hàm và truyền List vào Hàm
+    my(fruit)
+  </pre>
+        </li>
+
+        <li><strong>Tuyên bố vượt qua</strong>
+  <pre>
+    function định nghĩa không được để trống, nhưng nếu vì lý do nào đó bạn có một
+    function định nghĩa không có nội dung, hãy thêm vào pass câu lệnh để tránh bị lỗi.
+    vd:
+    <b>
+      def my():
+        pass
+    </b>
+  </pre>
+        </li>
+
+        <li><b>Giá trị trả về</b>
+        <pre>
+  vd:
+  def my(x):
+    return 5*x
+  print(my(5))
+        </pre>
+          </li>
+
+        <!-- Nhap 1 giá trị từ bàn phím -->
+        <li><strong>Nhap 1 giá tri vao ban phim trong python </strong>
+  <pre>
+    <strong>Dùng hàm input()</strong>
+    Do mặc định là kiểu string nên nhập giá trị chúng ta cần ép kiểu 
+    vd : x = int(input("Nhap gia trị nguyen x: "))
+  </pre>
+        </li>
+      
+        
+    </ol>
+  </body>
+</html>
